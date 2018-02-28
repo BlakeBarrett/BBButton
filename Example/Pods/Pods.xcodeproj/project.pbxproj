@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		009C077035B27338375E8A9251DDB1EB /* BBButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE9C2652C6C4566CE36F344D1F60270 /* BBButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		138187B6AF9BDBAB8FAF4E695A976EE1 /* Pods-BBButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC91D84D952DF6DD941E8D650A82A51F /* Pods-BBButton_Example-dummy.m */; };
-		2881C01C2F50A0ED3236173965DCB1DE /* BBButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1785ACBE48AC720FB6862654CE6FC80 /* BBButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29539B024B0A79F410FBE05BB619FD5A /* Pods-BBButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12FBAAA0CD007DB9472E6CD485FFF8 /* Pods-BBButton_Tests-dummy.m */; };
 		3935B694172FAB7D893D8DC89459CD26 /* Pods-BBButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3F1EF50892857BE70515163EEBBE5F /* Pods-BBButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		524DAA202A196A53477B8B6BEB572D7C /* BBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D336006B817FEACD249BAA3B291503 /* BBButton.swift */; };
-		5480EDD4AC56BB154594959B9243DBA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7D38370F0BB02E98B0B9F693FB23E340 /* BBButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E172AFF6EDC12270D299EC8E096E50DB /* BBButton-dummy.m */; };
+		3AD7E7096463A5D07C33AECBC3FAF0E5 /* BBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467C1F2E496B264FC66C2D0DBB21E91 /* BBButton.swift */; };
 		8E384E46563BAB35A4B84395C823F3DD /* Pods-BBButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CE54C347A3724265A9A78CB3B4BD57 /* Pods-BBButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDFB60CF37F0E1F31EEEACF30E6E0088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EB16123976DAAF38700B6D4CF717F766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8F9FC964F306F48AD36FA12F48D147AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		BC4BE1493830629FF2D24003C1292DBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		CDFB60CF37F0E1F31EEEACF30E6E0088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		DF445F922E179627D62CF34247FB3A36 /* BBButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CB19E499CB6CEB9C54FBF999EB029A /* BBButton-dummy.m */; };
+		EB16123976DAAF38700B6D4CF717F766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,55 +25,57 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DB16394A0F0C49EF7EE6137C50DB28EB;
+			remoteGlobalIDString = 3C332863F6789DDFC38CD00332FBC063;
 			remoteInfo = BBButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06D2056B54EC1C8923B24FE0E201AEAF /* BBButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BBButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		09CE54C347A3724265A9A78CB3B4BD57 /* Pods-BBButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		0A0D9451EA1C8ED23320F858F4E6443A /* Pods_BBButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CCBF2B9562480812E2B790FA984C812 /* BBButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BBButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		103BD9C98F66943AA8D22E6D4C9D72EB /* Pods_BBButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0D9451EA1C8ED23320F858F4E6443A /* Pods_BBButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BBButton_Tests.framework; path = "Pods-BBButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCBF2B9562480812E2B790FA984C812 /* BBButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BBButton.framework; path = BBButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		103BD9C98F66943AA8D22E6D4C9D72EB /* Pods_BBButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BBButton_Example.framework; path = "Pods-BBButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A3A2EBD357C1048F9F9B9F575CEAFF /* Pods-BBButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		21DBB7D799B9D24FEC6FFFF76D48E470 /* BBButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BBButton.modulemap; sourceTree = "<group>"; };
 		282FE2E1FC5776855049DFC3BFF1B04A /* Pods-BBButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBButton_Example-resources.sh"; sourceTree = "<group>"; };
 		31451D696BB65D896A76275EA7C18EBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3335F3A34FABEFCBD429F26F6A17CADA /* Pods-BBButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4E26049001CE750574B4FA558B8867EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E70B068E4CD723ECB2FDF8FD6451396 /* BBButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BBButton.xcconfig; sourceTree = "<group>"; };
+		41CFA0507C2A04FFC7720175AB537804 /* BBButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BBButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5DE9C2652C6C4566CE36F344D1F60270 /* BBButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBButton-umbrella.h"; sourceTree = "<group>"; };
 		625DC0037383B221D46A9634F11ECFF2 /* Pods-BBButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		640D25B462F7F5A141D0159F740C706A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		657DE66D425A49B8B727C356C4DE5B59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A15ADD1D020403BD70ABD104E384A5E /* Pods-BBButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBButton_Tests-resources.sh"; sourceTree = "<group>"; };
-		7CDDBCFAA056E9807735822413550388 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		809FEC4988499A0EED13BBB18C3F51CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ED3E772C7D6EE7246E3414708589949 /* Pods-BBButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9454464C76252ABECF82E059A8E084D5 /* Pods-BBButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BBButton_Tests.modulemap"; sourceTree = "<group>"; };
 		9D3F1EF50892857BE70515163EEBBE5F /* Pods-BBButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A391CFEBFC6B82C3BA537033A670568F /* Pods-BBButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BBButton_Example.modulemap"; sourceTree = "<group>"; };
 		A46AFA55D0989E209EEB619B95D570FA /* Pods-BBButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AEF2F6B360ECB8FDDECDF8DE83914AD1 /* Pods-BBButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C095F9EE2B3D8588571AF4A430829303 /* BBButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBButton-prefix.pch"; sourceTree = "<group>"; };
-		C1785ACBE48AC720FB6862654CE6FC80 /* BBButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBButton-umbrella.h"; sourceTree = "<group>"; };
+		B467C1F2E496B264FC66C2D0DBB21E91 /* BBButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BBButton.swift; path = BBButton/Classes/BBButton.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C34D33657C06C939182EBD1E6C87B3D7 /* Pods-BBButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CA12FBAAA0CD007DB9472E6CD485FFF8 /* Pods-BBButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		CC91D84D952DF6DD941E8D650A82A51F /* Pods-BBButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBButton_Example-dummy.m"; sourceTree = "<group>"; };
 		D594A77EDA4CF7DD1448DE45889696A5 /* Pods-BBButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DE151E0287C12A7E2E5EB91E53E6E133 /* BBButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BBButton.xcconfig; sourceTree = "<group>"; };
-		E172AFF6EDC12270D299EC8E096E50DB /* BBButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BBButton-dummy.m"; sourceTree = "<group>"; };
-		E2D336006B817FEACD249BAA3B291503 /* BBButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BBButton.swift; path = BBButton/Classes/BBButton.swift; sourceTree = "<group>"; };
+		D5DDEB4BD66D2D6E8D77B48F87AB7C5A /* BBButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBButton-prefix.pch"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB839C6ECB176F30B222C0C7724E7A4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E56F237639A69C3A4888F568BF586F90 /* BBButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BBButton.modulemap; sourceTree = "<group>"; };
+		F002463FE21BB293014ACC8785CE6B03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CB19E499CB6CEB9C54FBF999EB029A /* BBButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BBButton-dummy.m"; sourceTree = "<group>"; };
 		F42AA3CCA999D687177F3DDFFADF93EF /* Pods-BBButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F74C1D1CD0575A890F4027F5BABD81E5 /* Pods-BBButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F6FA040C6700EF6B82B908BEC019395 /* Frameworks */ = {
+		C2B74269446B98CF53F2A4C35CCA91CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5480EDD4AC56BB154594959B9243DBA0 /* Foundation.framework in Frameworks */,
+				BC4BE1493830629FF2D24003C1292DBC /* Foundation.framework in Frameworks */,
+				8F9FC964F306F48AD36FA12F48D147AC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,12 +98,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FABB98D080C6889212EE13A8D069B75 /* Development Pods */ = {
+		0B68E1C385512A62CB08846595A7739C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E6BEE5E7639AB074457963733DBC7B2E /* BBButton */,
+				E56F237639A69C3A4888F568BF586F90 /* BBButton.modulemap */,
+				3E70B068E4CD723ECB2FDF8FD6451396 /* BBButton.xcconfig */,
+				F2CB19E499CB6CEB9C54FBF999EB029A /* BBButton-dummy.m */,
+				D5DDEB4BD66D2D6E8D77B48F87AB7C5A /* BBButton-prefix.pch */,
+				5DE9C2652C6C4566CE36F344D1F60270 /* BBButton-umbrella.h */,
+				F002463FE21BB293014ACC8785CE6B03 /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BBButton";
 			sourceTree = "<group>";
 		};
 		1015C14E4FAB5E56E580288F57ECFE8A /* Targets Support Files */ = {
@@ -112,18 +121,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		14555D99C223C233D42AEBAF5322D07A /* Support Files */ = {
+		42819B70BD77EE9DDE945F808A48B475 /* BBButton */ = {
 			isa = PBXGroup;
 			children = (
-				21DBB7D799B9D24FEC6FFFF76D48E470 /* BBButton.modulemap */,
-				DE151E0287C12A7E2E5EB91E53E6E133 /* BBButton.xcconfig */,
-				E172AFF6EDC12270D299EC8E096E50DB /* BBButton-dummy.m */,
-				C095F9EE2B3D8588571AF4A430829303 /* BBButton-prefix.pch */,
-				C1785ACBE48AC720FB6862654CE6FC80 /* BBButton-umbrella.h */,
-				809FEC4988499A0EED13BBB18C3F51CF /* Info.plist */,
+				B467C1F2E496B264FC66C2D0DBB21E91 /* BBButton.swift */,
+				ECE032561C2F3EBAEE962D08DC185D09 /* Pod */,
+				0B68E1C385512A62CB08846595A7739C /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BBButton";
+			name = BBButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		4551304371E943800877CA7468A0BBC7 /* Products */ = {
@@ -154,41 +177,23 @@
 			path = "Target Support Files/Pods-BBButton_Example";
 			sourceTree = "<group>";
 		};
-		7D5788BD7D94F13CC9FE428373EE4987 /* Pod */ = {
+		6858AC23E4F18351DE55A7968FB87EEB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06D2056B54EC1C8923B24FE0E201AEAF /* BBButton.podspec */,
-				7CDDBCFAA056E9807735822413550388 /* LICENSE */,
-				4E26049001CE750574B4FA558B8867EA /* README.md */,
+				42819B70BD77EE9DDE945F808A48B475 /* BBButton */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0FABB98D080C6889212EE13A8D069B75 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6858AC23E4F18351DE55A7968FB87EEB /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				4551304371E943800877CA7468A0BBC7 /* Products */,
 				1015C14E4FAB5E56E580288F57ECFE8A /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		D51DB7F08AE67E72C7A2A0C2125B09A3 /* Pods-BBButton_Tests */ = {
@@ -209,28 +214,19 @@
 			path = "Target Support Files/Pods-BBButton_Tests";
 			sourceTree = "<group>";
 		};
-		E6BEE5E7639AB074457963733DBC7B2E /* BBButton */ = {
+		ECE032561C2F3EBAEE962D08DC185D09 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E2D336006B817FEACD249BAA3B291503 /* BBButton.swift */,
-				7D5788BD7D94F13CC9FE428373EE4987 /* Pod */,
-				14555D99C223C233D42AEBAF5322D07A /* Support Files */,
+				41CFA0507C2A04FFC7720175AB537804 /* BBButton.podspec */,
+				640D25B462F7F5A141D0159F740C706A /* LICENSE */,
+				DB839C6ECB176F30B222C0C7724E7A4E /* README.md */,
 			);
-			name = BBButton;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4518AD504C899ACB87DB350AAFCBE9E7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2881C01C2F50A0ED3236173965DCB1DE /* BBButton-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5895DBE33487FF9AD222523954671F30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,9 +243,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A57B91DF1318F13192AED340AB0342F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009C077035B27338375E8A9251DDB1EB /* BBButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3C332863F6789DDFC38CD00332FBC063 /* BBButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9B9A77C7D3C0E2423EAB176D0F818C /* Build configuration list for PBXNativeTarget "BBButton" */;
+			buildPhases = (
+				5B830A4ED91E756C6551AF2C9395BBEB /* Sources */,
+				C2B74269446B98CF53F2A4C35CCA91CC /* Frameworks */,
+				A57B91DF1318F13192AED340AB0342F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBButton;
+			productName = BBButton;
+			productReference = 0CCBF2B9562480812E2B790FA984C812 /* BBButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5BD7CDF7F8219F222A6241584F4528A8 /* Pods-BBButton_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F37D651A4B2B8F8FFD59D0520BD2D24 /* Build configuration list for PBXNativeTarget "Pods-BBButton_Example" */;
@@ -266,23 +287,6 @@
 			name = "Pods-BBButton_Example";
 			productName = "Pods-BBButton_Example";
 			productReference = 103BD9C98F66943AA8D22E6D4C9D72EB /* Pods_BBButton_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DB16394A0F0C49EF7EE6137C50DB28EB /* BBButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F02089C30EE06E8B85BE864431943B5C /* Build configuration list for PBXNativeTarget "BBButton" */;
-			buildPhases = (
-				EB54658FAA26E7122BB7A2EA4B58D612 /* Sources */,
-				3F6FA040C6700EF6B82B908BEC019395 /* Frameworks */,
-				4518AD504C899ACB87DB350AAFCBE9E7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BBButton;
-			productName = BBButton;
-			productReference = 0CCBF2B9562480812E2B790FA984C812 /* BBButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F2C9252E109B0254755C5313F03B5CE2 /* Pods-BBButton_Tests */ = {
@@ -323,7 +327,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB16394A0F0C49EF7EE6137C50DB28EB /* BBButton */,
+				3C332863F6789DDFC38CD00332FBC063 /* BBButton */,
 				5BD7CDF7F8219F222A6241584F4528A8 /* Pods-BBButton_Example */,
 				F2C9252E109B0254755C5313F03B5CE2 /* Pods-BBButton_Tests */,
 			);
@@ -331,6 +335,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5B830A4ED91E756C6551AF2C9395BBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF445F922E179627D62CF34247FB3A36 /* BBButton-dummy.m in Sources */,
+				3AD7E7096463A5D07C33AECBC3FAF0E5 /* BBButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E5090CB08DE24BD3602094FB109326F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,30 +360,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB54658FAA26E7122BB7A2EA4B58D612 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D38370F0BB02E98B0B9F693FB23E340 /* BBButton-dummy.m in Sources */,
-				524DAA202A196A53477B8B6BEB572D7C /* BBButton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		28092DB86DBE18EB31AA6E9998DD13B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BBButton;
-			target = DB16394A0F0C49EF7EE6137C50DB28EB /* BBButton */;
+			target = 3C332863F6789DDFC38CD00332FBC063 /* BBButton */;
 			targetProxy = 556D2A92B0A64932DF63266CEC46D835 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B085E14EC84DBB9ABFE302BBA998A2E /* Debug */ = {
+		3F57F1D622C99E041DEB613FCEE6C37F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE151E0287C12A7E2E5EB91E53E6E133 /* BBButton.xcconfig */;
+			baseConfigurationReference = 3E70B068E4CD723ECB2FDF8FD6451396 /* BBButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -398,6 +402,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		460757D5191E25E3440A823F6637CB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E70B068E4CD723ECB2FDF8FD6451396 /* BBButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BBButton/BBButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BBButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BBButton/BBButton.modulemap";
+				PRODUCT_NAME = BBButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		4CFF732403F3CA845CEB110404E9195D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -493,38 +529,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		52C1964FDC74B0DF3CDBA7DDB31F711F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE151E0287C12A7E2E5EB91E53E6E133 /* BBButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BBButton/BBButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BBButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BBButton/BBButton.modulemap";
-				PRODUCT_NAME = BBButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -697,6 +701,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6C9B9A77C7D3C0E2423EAB176D0F818C /* Build configuration list for PBXNativeTarget "BBButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F57F1D622C99E041DEB613FCEE6C37F /* Debug */,
+				460757D5191E25E3440A823F6637CB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8F37D651A4B2B8F8FFD59D0520BD2D24 /* Build configuration list for PBXNativeTarget "Pods-BBButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -711,15 +724,6 @@
 			buildConfigurations = (
 				4CFF732403F3CA845CEB110404E9195D /* Debug */,
 				D657EDBFECA73BB2745C9EA0B96AF4AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F02089C30EE06E8B85BE864431943B5C /* Build configuration list for PBXNativeTarget "BBButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B085E14EC84DBB9ABFE302BBA998A2E /* Debug */,
-				52C1964FDC74B0DF3CDBA7DDB31F711F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

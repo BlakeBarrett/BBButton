@@ -22,8 +22,8 @@ public protocol BBButton {
 
 extension UIControl: BBButton {
     
-    static var controlWasClickedEvent = "controlWasClicked"
-    static var controlWasClickedNotificationName = NSNotification.Name(rawValue: UIControl.controlWasClickedEvent)
+    fileprivate static var controlWasClickedEvent = "controlWasClicked"
+    fileprivate static var controlWasClickedNotificationName = NSNotification.Name(rawValue: UIControl.controlWasClickedEvent)
     
     public func onClick(_ value: Closure?) {
         let onControlClicked = #selector(self.onControlClicked)
@@ -38,7 +38,7 @@ extension UIControl: BBButton {
         }
     }
     
-    @objc func onControlClicked() {
+    @objc fileprivate func onControlClicked() {
         NotificationCenter.default.post(name: UIControl.controlWasClickedNotificationName, object: self)
     }
 }

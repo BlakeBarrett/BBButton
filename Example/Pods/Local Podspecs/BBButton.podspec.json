@@ -1,8 +1,8 @@
 {
   "name": "BBButton",
   "version": "0.1.0",
-  "summary": "A short description of BBButton.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Add a click handler closure to any UIControl.",
+  "description": "if you've ever done any programmatic UI in UIKit, I'm sure you've encountered a scenario where you want to programmatically add a click listener to a UIControl.\nI'm willing to bet that the thought has occurred to you, \"There _must_ be an easier way.\"; especially if you have ever added an `OnClickListener` to a `Button` in Android.\nThis enables you to add a click listener by passing a closure to a new `onClick()` function. \nThis is definitely for convenience only, but I'm glad to use it.",
   "homepage": "https://github.com/blakebarrett/BBButton",
   "license": {
     "type": "MIT",
@@ -15,8 +15,10 @@
     "git": "https://github.com/blakebarrett/BBButton.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/schjlatah",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BBButton/Classes/**/*"
+  "source_files": "BBButton/Classes/**/*",
+  "frameworks": "UIKit"
 }
