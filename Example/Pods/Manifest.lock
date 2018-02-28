@@ -1,0 +1,16 @@
+PODS:
+  - BBButton (0.1.0)
+
+DEPENDENCIES:
+  - BBButton (from `../`)
+
+EXTERNAL SOURCES:
+  BBButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BBButton: 4c8cdcce46e62bae85c84b92f1947b04e57e76e9
+
+PODFILE CHECKSUM: 83b3d73ac33ba0662397219270b379e01724115c
+
+COCOAPODS: 1.4.0

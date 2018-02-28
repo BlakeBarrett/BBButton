@@ -1,0 +1,6 @@
+framework module Pods_BBButton_Tests {
+  umbrella header "Pods-BBButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
